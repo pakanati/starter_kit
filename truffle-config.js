@@ -9,6 +9,11 @@ module.exports = {
       network_id: "*" // Match any network id
     },
   },
+  test: {
+    host: "127.0.0.1",
+    port: 7545,
+    network_id: "1" // Match any network id
+  },  
   contracts_directory: './src/contracts/',
   contracts_build_directory: './src/abis/',
   compilers: {
